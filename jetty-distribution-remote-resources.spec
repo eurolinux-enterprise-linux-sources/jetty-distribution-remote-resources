@@ -1,6 +1,6 @@
 Name:           jetty-distribution-remote-resources
 Version:        1.1
-Release:        7%{?dist}
+Release:        8%{?dist}
 Summary:        Jetty toolchain artifact for distribution remote resources
 
 License:        ASL 2.0 or EPL
@@ -31,6 +31,9 @@ Jetty toolchain artifact for distribution remote distribution resources
 %dir %{_javadir}/%{name}
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.1-8
+- Mass rebuild 2013-12-27
+
 * Fri Aug 16 2013 Stanislav Ochotnicky <sochotnicky@redhat.com> - 1.1-7
 - Migrate away from mvn-rpmbuild (#997438)
 
